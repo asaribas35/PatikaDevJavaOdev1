@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+
+public class Main {
+    /**
+     * @author ali sarıbaş
+     *
+     */
+    public static void main(String[] args) {
+    Scanner inp = new Scanner(System.in);
+    double armut, elma, domat, muz, patl, total;
+    armut = 2.14; elma=3.67; domat=1.11; muz=0.95; patl = 5.0;
+
+        System.out.print("Armut Kaç kg : ");
+        double parmut = inp.nextDouble();
+        System.out.print("Elma Kaç kg : ");
+        double pelma = inp.nextDouble();
+        System.out.print("Domates Kaç kg : ");
+        double pdomat = inp.nextDouble();
+        System.out.print("Muz Kaç kg : ");
+        double pmuz = inp.nextDouble();
+        System.out.print("Patlıcan Kaç kg : ");
+        double ppatl = inp.nextDouble();
+
+        total = (armut*parmut)+(elma*pelma)+(domat*pdomat)+(muz*pmuz)+(patl*ppatl);
+
+        System.out.println("Toplam Tutar : "+ total + " TL");
+
+
+
+    }
+}
